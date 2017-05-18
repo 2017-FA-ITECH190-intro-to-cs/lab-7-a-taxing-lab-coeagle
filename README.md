@@ -6,7 +6,7 @@
 
 **Practice:** This is largely just additional practice for the concepts and techniques that we've already explained.
 
-**Instructions:** In this repository, there is a a web page file called [payroll.html](payrol.html). Once you have cloned this repository, study the code in the file.
+**Instructions:** In this repository, there is a a web page file called `payroll.html`. Once you have cloned this repository, study the code in the file.
 
 Notice that there are two functions in the script element at the top of the page. The first function, `roundMoney()`, rounds numbers to two decimal places. It is complete and works properly. You do not need to make, nor should you make, any changes to it. It is a function you will **call** from the second function. The second function, `calculate()`, is there for you to implement. Make note of the comments that describe _what_ the function does.
 
