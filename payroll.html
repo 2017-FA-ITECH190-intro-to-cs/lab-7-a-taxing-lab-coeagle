@@ -27,7 +27,18 @@
       // then calculates the net pay.  It then
       // displays those values in the outputDiv.
       {
-         // put your code here
+         grossPay = parseFloat(getElementById("grossPayBox").value);
+         fed = parseFloat(getElementById("fedTaxRateBox").value;)
+         state = parseFloat(getElementById("stateTaxRateBox").value;)
+         cal = Math.floor(grossPay * fed);
+         state = Math.floor(grossPay * state);
+         net = Math.floor(grossPay * fed * stateTax);
+         document.getElementById('output').innerHTML =
+				'<p> Your gross pay is: ' + grossPay
+				+ 'The federal tax is: '+ cal
+				 + 'The state tax is: '+ state
+				+ 'The net pay is: '+ net + '</p>;'
+         
       } 
 
 <!-- Do not change anything below here. -->
@@ -52,7 +63,7 @@
       <p>
          <input value=" Calculate Taxes and Net Pay " onclick="calculate();" type="button">
       </p>
-      <div id="outputDiv"></div>
+      <div id="output"></div>
       
    
 
